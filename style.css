@@ -1,0 +1,68 @@
+:root {
+  --blue: #052843;
+  --yellow: #d0c05b;
+  --glow: rgb(72, 200, 175);
+  --purp: #ff8ad5;
+  --maple: #7b0005;
+  --bg: #c0914f;
+  --back: #1d2632;
+  --kom: #16be27;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "merriweather", sans-serif;
+}
+
+body {
+  font-family: "merriweather", serif;
+  background-color: var(--blue);
+}
+
+.navbar {
+  text-align: center;
+  height: 5rem;
+  background-color: var(--bg);
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2px;
+}
+
+.navbar h1 {
+  color: var(--maple);
+  font-size: 3rem;
+}
+a {
+  color: var(--maple);
+  display: flexbox;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 20px;
+  height: 10px;
+}
+
+a:hover {
+  background-color: var(--maple);
+  border-radius: 15px;
+  transition-duration: 1s;
+  color: var(--bg);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #16be27;
+  height: 100vh;
+}
+
+p {
+  color: var(--kom);
+}
